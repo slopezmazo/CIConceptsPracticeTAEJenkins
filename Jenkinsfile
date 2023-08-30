@@ -16,14 +16,14 @@ pipeline {
         stage('Compile') {
             steps {
                 // Compile the Java application
-                bat 'javac C:\ProgramData\Jenkins\.jenkins\workspace\CIConceptsPracticeTAEJenkins\src\Main.java'
+                bat 'javac C:/ProgramData/Jenkins/.jenkins/workspace/CIConceptsPracticeTAEJenkins/src/Main.java'
             }
         }
 
         stage('Execute') {
             steps {
                 // Run the Java application with environment variable parameter
-                bat 'java C:\ProgramData\Jenkins\.jenkins\workspace\CIConceptsPracticeTAEJenkins\src\Main ${ENVIRONMENT_VAR}'
+                bat 'java C:/ProgramData/Jenkins/.jenkins/workspace/CIConceptsPracticeTAEJenkins/src/Main ${ENVIRONMENT_VAR}'
             }
         }
     }
