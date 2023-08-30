@@ -16,14 +16,14 @@ pipeline {
         stage('Compile') {
             steps {
                 // Compile the Java application
-                sh 'javac Main.java'
+                bat 'javac Main.java'
             }
         }
 
         stage('Execute') {
             steps {
                 // Run the Java application with environment variable parameter
-                sh 'java Main ${ENVIRONMENT_VAR}'
+                bat 'java Main ${ENVIRONMENT_VAR}'
             }
         }
     }
