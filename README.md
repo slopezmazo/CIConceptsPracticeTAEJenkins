@@ -2,6 +2,24 @@
 
 This project serves as a practice ground for understanding Continuous Integration (CI) concepts using Java and Jenkins. The project involves creating a Java application that prints a message containing an environment variable. This README provides comprehensive instructions on setting up the project, cloning the repository, and implementing the CI process using Jenkins.
 
+## Results
+
+### Last build before modifications
+![1](https://github.com/slopezmazo/CIConceptsPracticeTAEJenkins/assets/141847950/a0476de0-26a1-45f6-9402-f8b77c2e4f16)
+![2](https://github.com/slopezmazo/CIConceptsPracticeTAEJenkins/assets/141847950/85930101-012a-40f8-9f25-99348fdcfe30)
+![3](https://github.com/slopezmazo/CIConceptsPracticeTAEJenkins/assets/141847950/011bb163-3c7f-4843-bb0c-66070ad15e32)
+![4](https://github.com/slopezmazo/CIConceptsPracticeTAEJenkins/assets/141847950/105bba26-c800-4bbc-a6e2-9c9969bb0674)
+
+### After modifications
+
+![1b](https://github.com/slopezmazo/CIConceptsPracticeTAEJenkins/assets/141847950/b91cacb4-56e8-4fab-a689-9ca4af454af3)
+![2B](https://github.com/slopezmazo/CIConceptsPracticeTAEJenkins/assets/141847950/dc4b6b2d-6dc3-43c7-9b30-40e7b1b9849e)
+![3b](https://github.com/slopezmazo/CIConceptsPracticeTAEJenkins/assets/141847950/e07384f2-10bf-4c2c-801c-444f17572110)
+![4b](https://github.com/slopezmazo/CIConceptsPracticeTAEJenkins/assets/141847950/e54fbc08-5b70-4a84-91b8-640f3cd6b84a)
+
+
+
+
 ## Repository Content
 
 The repository contains the following essential files:
