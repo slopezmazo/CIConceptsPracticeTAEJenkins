@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Environment variable:"+System.getenv("ENVIRONMENT_VAR"));
+        String var = System.getenv("ENVIRONMENT_VAR");
+        for (String part : var.split(" ")){
+            System.out.println(part);
+        }
     }
 }
